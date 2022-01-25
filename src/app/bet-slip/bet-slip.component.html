@@ -1,0 +1,18 @@
+<div class="bet-slip-container">
+    <div class="container-ball-selected">
+        <div class="container-ball-hide"></div>
+        <div class="container-ball" *ngFor="let ball of ballsService.balls">
+            <app-ball *ngIf="ball.selected" [ball]="ball"></app-ball>
+        </div>
+    </div>
+    <div class="container-bet">
+        <div class="count-ball">{{ballsService.countBallSelected}}x</div>
+    </div>
+    <div class="container-message">
+        <p class="message"></p>
+    </div>
+    <div class="container-result">
+        <div class="total">Total: €</div>
+        <button class="button-place-bet">Place Bet</button>
+    </div>
+</div>

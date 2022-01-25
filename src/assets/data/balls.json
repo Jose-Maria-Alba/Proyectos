@@ -1,0 +1,51 @@
+[{
+        "num": 1,
+        "selected": false,
+        "color": "red"
+    },
+    {
+        "num": 2,
+        "selected": false,
+        "color": "yellow"
+    },
+    {
+        "num": 3,
+        "selected": false,
+        "color": "green"
+    },
+    {
+        "num": 4,
+        "selected": false,
+        "color": "pink"
+    },
+    {
+        "num": 5,
+        "selected": false,
+        "color": "orange"
+    },
+    {
+        "num": 6,
+        "selected": false,
+        "color": "grey"
+    },
+    {
+        "num": 7,
+        "selected": false,
+        "color": "red"
+    },
+    {
+        "num": 8,
+        "selected": false,
+        "color": "yellow"
+    },
+    {
+        "num": 9,
+        "selected": false,
+        "color": "green"
+    },
+    {
+        "num": 10,
+        "selected": false,
+        "color": "pink"
+    }
+]

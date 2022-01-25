@@ -1,0 +1,77 @@
+.bet-slip-container {
+    float: left;
+    padding-top: 10px;
+    border: solid 3px #dddddd;
+    text-align: center;
+    width: 500px;
+    height: 349px;
+    padding-top: 50px;
+    .container-ball-selected {
+        height: 60px;
+    }
+    .container-ball {
+        display: inline;
+    }
+    .container-bet {
+        display: inline-flex;
+        .count-ball {
+            background: #dddddd;
+            width: 30px;
+            padding: 5px;
+            font-weight: bold;
+        }
+        .text-bet {
+            border: solid 1px #dddddd;
+            text-align: right;
+            font-weight: bold;
+            padding: 5px;
+        }
+        .button-bet {
+            background: blue;
+            color: white;
+            border: none;
+            margin-left: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            cursor: pointer;
+        }
+        .button-bet:hover {
+            background-color: orange;
+            color: black;
+        }
+    }
+    .container-message {
+        height: 30px;
+        text-align: center;
+        .message {
+            color: orange;
+            font-size: 20px;
+        }
+    }
+    .container-result {
+        margin-top: 111px;
+        .total {
+            height: 40px;
+            background-color: #dddddd;
+            font-size: 32px;
+        }
+        .button-place-bet {
+            background: blue;
+            color: white;
+            width: 100%;
+            height: 60px;
+            border: none;
+            font-size: 25px;
+            cursor: pointer;
+        }
+        .button-place-bet:hover {
+            background-color: orange;
+            color: black;
+        }
+        .button-place-bet:disabled {
+            background-color: #dddddd;
+            color: black;
+            cursor: auto;
+        }
+    }
+}

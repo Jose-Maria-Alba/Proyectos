@@ -1,0 +1,8 @@
+<div class="ball-selector-container">
+    <div class="container-ball" *ngFor="let ball of ballsService.balls">
+        <app-ball *ngIf="!ball.selected" [ball]="ball"></app-ball>
+    </div>
+    <div class="clear-selection-container">
+        <a class="clear-selection" (click)="clearSelection()">Clear Selection</a>
+    </div>
+</div>

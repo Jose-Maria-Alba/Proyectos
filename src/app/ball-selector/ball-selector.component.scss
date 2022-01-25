@@ -1,0 +1,22 @@
+.ball-selector-container {
+    float: left;
+    padding-top: 50px;
+    border: solid 3px #dddddd;
+    text-align: center;
+    width: 550px;
+    height: 349px;
+    .container-ball {
+        display: inline;
+    }
+    .clear-selection-container {
+        margin-top: 80px;
+        .clear-selection {
+            color: blue;
+            font-size: 25px;
+            cursor: pointer;
+        }
+        .clear-selection:hover {
+            color: orange;
+        }
+    }
+}
